@@ -227,7 +227,7 @@ export default function Home() {
         <div className="mt-7"><NotesPanel onAnnounce={announce} /></div>
 
         <section aria-labelledby="safety-title" className="mt-7 rounded-[1.75rem] border border-[#bc785b] bg-[#30211e] p-5 sm:p-7">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-start"><div aria-hidden="true" className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#ffad9d] text-[#40211b]"><AlertTriangle className="h-6 w-6" /></div><div><p className="section-eyebrow text-[#ffd0c3]">重要安全提醒</p><h2 id="safety-title" className="mt-1 text-2xl font-extrabold">AI 回報僅供輔助，不可取代導盲工具或交通判斷。</h2><p className="mt-3 max-w-4xl text-[#ffe4dc]">請在移動前與移動中持續使用適合您的導盲工具、遵守現場號誌與交通規則，並以現場狀況為準。AI 可能誤判、漏判或延遲，請勿只依賴本工具進行道路穿越、避開危險或緊急決策。</p></div><ShieldCheck className="ml-auto h-8 w-8 shrink-0 text-[#ffd0c3]" aria-hidden="true" /></div>
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start"><div aria-hidden="true" className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#ffad9d] text-[#40211b]"><AlertTriangle className="h-6 w-6" /></div><div><p className="section-eyebrow text-[#ffd0c3]">重要安全提醒</p><h2 id="safety-title" className="mt-1 text-2xl font-extrabold">AI 即時影像功能回報僅供輔助</h2><p className="mt-3 max-w-4xl text-[#ffe4dc]">請在移動前與移動中持續使用適合您的導盲工具、遵守現場號誌與交通規則，並以現場狀況為準。AI 可能誤判、漏判或延遲，請勿只依賴本工具進行道路穿越、避開危險或緊急決策。</p></div><ShieldCheck className="ml-auto h-8 w-8 shrink-0 text-[#ffd0c3]" aria-hidden="true" /></div>
         </section>
         {!speechSupported && <p className="mt-5 rounded-xl border border-[#bc785b] bg-[#30211e] px-4 py-3 text-sm text-[#ffe4dc]">此瀏覽器目前不支援語音報讀。您仍可使用完整文字回報與鍵盤操作。</p>}
       </main>
